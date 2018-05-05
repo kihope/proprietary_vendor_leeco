@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/ks:system/bin/ks \
     vendor/leeco/x2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/x2/proprietary/bin/ppd:system/bin/ppd \
-    vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/leeco/x2/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/leeco/x2/proprietary/bin/tloc_daemon:system/bin/tloc_daemon \
@@ -99,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -110,6 +110,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml:system/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
+    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v20.bin:system/vendor/firmware/Signedrompatch_v20.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v21.bin:system/vendor/firmware/Signedrompatch_v21.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v24.bin:system/vendor/firmware/Signedrompatch_v24.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v30.bin:system/vendor/firmware/Signedrompatch_v30.bin \
     vendor/leeco/x2/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
@@ -123,10 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
-    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v20.bin:system/vendor/firmware/Signedrompatch_v20.bin \
-    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v21.bin:system/vendor/firmware/Signedrompatch_v21.bin \
-    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v24.bin:system/vendor/firmware/Signedrompatch_v24.bin \
-    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v30.bin:system/vendor/firmware/Signedrompatch_v30.bin \
     vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
