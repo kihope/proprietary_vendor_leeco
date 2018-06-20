@@ -16,12 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
-<<<<<<< HEAD
     vendor/leeco/msm8996-common/proprietary/etc/UEISettings:system/etc/UEISettings \
-=======
     vendor/leeco/msm8996-common/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/leeco/msm8996-common/proprietary/bin/sigma_dut:system/bin/sigma_dut \
->>>>>>> e0883d4... msm8996: Update Bluetooth and WiFi from Bardock
     vendor/leeco/msm8996-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/leeco/msm8996-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/leeco/msm8996-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
