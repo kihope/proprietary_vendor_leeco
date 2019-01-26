@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,14 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/leeco/zl1/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
-    vendor/leeco/zl1/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
     vendor/leeco/zl1/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
-    vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:$(TARGET_COPY_OUT_VENDOR)/bin/mdtpd \
-    vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/leeco/zl1/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
-    vendor/leeco/zl1/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
-    vendor/leeco/zl1/proprietary/vendor/bin/tloc_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tloc_daemon \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -49,23 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
-    vendor/leeco/zl1/proprietary/vendor/etc/qxdm/1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/qxdm/1.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/qxdm/gps_log.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/qxdm/gps_log.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/form_factor_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/form_factor_mtp.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/mixer/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usf/mixer/mixer_paths_mtp.xml \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/readme.txt:$(TARGET_COPY_OUT_VENDOR)/etc/usf/readme.txt \
-    vendor/leeco/zl1/proprietary/vendor/etc/usf/version.txt:$(TARGET_COPY_OUT_VENDOR)/etc/usf/version.txt \
     vendor/leeco/zl1/proprietary/vendor/firmware/Signedrompatch_v20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Signedrompatch_v20.bin \
     vendor/leeco/zl1/proprietary/vendor/firmware/Signedrompatch_v21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Signedrompatch_v21.bin \
     vendor/leeco/zl1/proprietary/vendor/firmware/Signedrompatch_v24.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Signedrompatch_v24.bin \
@@ -370,8 +347,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libletv_algo_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libletv_algo_jni.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdtp.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdtp_crypto.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -472,28 +447,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmputility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmputility.so \
     vendor/leeco/zl1/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libqcproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcproximity.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrDec.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libual.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libualutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libualutil.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libusndroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libusndroute.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libzeusisCameraAlgoSceneDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzeusisCameraAlgoSceneDetection.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/hw/gxfingerprint5118m.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfp_client5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client5118m.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfpnav5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav5118m.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfpservice5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice5118m.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdtp.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtp_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdtp_crypto.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-dspp-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-dspp-utils.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libqcproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcproximity.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libual.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libualutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libualutil.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libusndroute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libusndroute.so
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so
 
 PRODUCT_PACKAGES += \
     SmartcardService
